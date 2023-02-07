@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Product Detail</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+         <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="150px"></a>
+            </div>
+            <nav>
+                <ul id="Menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" witdh="30px" height="30px" id="cart"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="toggle()">
+        </div>
+    </div>
+
+    <!-- Single Product details -->
+    <div class="content single-product">
+        <div class="row1">
+            <div class="col2">
+                <img src="images/gallery-1.jpg" id="Productimg">
+                <div class="small-img">
+                    <div class="img-col">
+                        <img src="images/gallery-1.jpg" width="100%" class="Small-img">
+                    </div>
+                    <div class="img-col">
+                        <img src="images/gallery-2.jpg" width="100%" class="Small-img">
+                    </div>
+                    <div class="img-col">
+                        <img src="images/gallery-3.jpg" width="100%" class="Small-img">
+                    </div>
+                    <div class="img-col">
+                        <img src="images/gallery-4.jpg" width="100%" class="Small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col2">
+                <h3>Home / T-shirt</h3>
+                <h1>Red Printed Shirt by HRX</h1>
+                <h4>$50.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Add to Cart</a>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus culpa consectetur dicta nulla qui aliquid, unde sapiente similique</p>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="row3">
+            <h2>Related products</h2>
+            <h4>View more</h4>
+        </div>
+        <div class="row1">
+            <div class="col1">
+                <img src="images/product-9.jpg">
+                <h3>Red printed T-Shirt</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <h3>$50.00</h3>
+            </div>
+            <div class="col1">
+                <img src="images/product-5.jpg">
+                <h3>Red printed T-Shirt</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <h3>$50.00</h3>
+            </div>
+            <div class="col1">
+                <img src="images/product-7.jpg">
+                <h3>Red printed T-Shirt</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <h3>$50.00</h3>
+            </div>
+            <div class="col1">
+                <img src="images/product-6.jpg">
+                <h3>Red printed T-Shirt</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <h3>$50.00</h3>
+            </div>
+        </div>
+    </div>    
+        
+    <script src="index.js"></script>    
+</body>
+</html>
